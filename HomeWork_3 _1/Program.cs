@@ -5,7 +5,7 @@ int Readint(string message)
     Console.Write(message);
     return int.Parse(Console.ReadLine()!);
 }
-int number = Readint ($"Введите число N до которого нужно отбразить кубы чисел N =   ");
+int number = Readint ($"Введите число N до которого нужно отобразить кубы чисел N =   ");
 int stepen = 3;
 
 
